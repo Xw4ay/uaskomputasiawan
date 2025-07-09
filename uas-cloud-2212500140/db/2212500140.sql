@@ -1,0 +1,10 @@
+CREATE DATABASE uas_cloud2212500140;
+
+USE uas_cloud2212500140;
+
+CREATE TABLE mahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nim VARCHAR(20),
+    nama VARCHAR(100),
+    email VARCHAR(100)
+);
